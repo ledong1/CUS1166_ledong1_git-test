@@ -1,0 +1,43 @@
+Basic program
+Hello World
+What is your name:Hello
+Hello 
+Done basic programs
+Variables
+Variable i has the value 120
+Variable i has the value 1.2342354 and is of type <class 'float'>
+Variable i has the value True
+Variable i has the value None
+Variable i has the value 120 and is of type <class 'int'>
+Variable i has the value 120.0 and is of type <class 'float'>
+ c[0] has the value 10 and is of type: <class 'int'>
+{1, 2}
+{'Tom': 'A', 'Mark': 'B-', 'Anna': 'F'}
+Done Variables
+Conditions
+The number x is zero
+Done Conditions
+Loops
+0
+1
+2
+3
+4
+0 - 2
+1 - 3
+2 - 4
+3 - 5
+4 - 6
+5 - 7
+6 - 8
+7 - 9
+Done Loops
+Functions
+Done Functions
+Classes
+Done Classes
+Define a module file
+Done Define a module file
+Use a module
+10000
+Done Use a module

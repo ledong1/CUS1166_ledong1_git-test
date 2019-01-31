@@ -88,6 +88,6 @@ print("Define a module file")
 print("Done Define a module file")
 
 print("Use a module")
-from mymodule.helper_utils import square
+from mymodules.helper_utils import square
 print(square(100))
 print("Done Use a module")

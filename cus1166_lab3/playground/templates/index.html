@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+{% for student in class_roster %}
+  <li>
+    {{student[0]}} grade is  {{student[1]}}
+  </li>
+{% endfor %}
+
+
+
+{% endblock %}

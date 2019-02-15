@@ -7,9 +7,18 @@ from models import db, Course, RegisteredStudent
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/app.db'
+#app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+#db=SQLAlchemy(app)
 db.init_app(app)
+#with app.app_context():
+#    db.init_app(app)
 
+def create_app():
+    app = Flask(__name__)
+    app.config.from_object(Config)
+    db.init_app(app)
+    return app
 
 @app.route("/")
 def index():

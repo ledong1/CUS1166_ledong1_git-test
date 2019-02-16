@@ -12,7 +12,7 @@
   </tr>
 {% for course in courses %}
   <tr>
-    <td>{{course.course_number}}</td>
+    <td><a href="{{url_for('register_student', course_id=course.id)}}"">{{course.course_number}}</a></td>
     <td>{{course.course_title}}</td>
     <td>{{course.id}}</td>
   </tr>

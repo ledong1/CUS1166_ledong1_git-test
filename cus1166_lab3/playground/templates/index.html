@@ -2,11 +2,23 @@
 
 {% block content %}
 <h1>Welcome!</h1>
+
+</table>
+<table style="width:70%">
+  <tr>
+    <th>Course number</th>
+    <th>course title</th>
+    <th>course id</th>
+  </tr>
 {% for course in courses %}
-  <li>
-    {{course.course_title}}
-  </li>
+  <tr>
+    <td>{{course.course_number}}</td>
+    <td>{{course.course_title}}</td>
+    <td>{{course.id}}</td>
+  </tr>
 {% endfor %}
+</table>
+
 
 <form action="{{ url_for('add_course') }}" method="post">
 <input type="text" name="course_number" placeholder="Enter course number ">
